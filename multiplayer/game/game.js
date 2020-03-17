@@ -36,8 +36,10 @@ var PLAYER_1_POINTS  = 0;
 var PLAYER_2_POINTS  = 0;
 
 const LANG_ENGLISH = 'english';
+const LANG_FRENCH = 'french';
 const LANG_GERMAN = 'deutsch';
 const ENGLISH_CONFIG_URL = 'config/english.jsonp';
+const FRENCH_CONFIG_URL = 'config/french.jsonp';
 const GERMAN_CONFIG_URL = 'config/german.jsonp';
 loadLanguageConfig();
 
@@ -57,8 +59,10 @@ function getConfigUrl() {
   switch (lang) {
     case LANG_ENGLISH:
       return ENGLISH_CONFIG_URL;
+    case LANG_FRENCH:
+      default:
+      return FRENCH_CONFIG_URL;
     case LANG_GERMAN:
-    default:
       return GERMAN_CONFIG_URL;
   }
 }

@@ -3,10 +3,11 @@ require_once ('config.php');
 
 const LANGUAGE_ENGLISH = 'english';
 const LANGUAGE_GERMAN = 'german';
+const LANGUAGE_FRENCH = 'french';
 
 $player = new Player();
 $player->name = htmlspecialchars($_POST['playerName']);
-$player->language = in_array($_POST['language'], [ LANGUAGE_ENGLISH, LANGUAGE_GERMAN ]) ? $_POST['language'] : LANGUAGE_ENGLISH;;
+$player->language = in_array($_POST['language'], [ LANGUAGE_ENGLISH, LANGUAGE_GERMAN, LANGUAGE_FRENCH ]) ? $_POST['language'] : LANGUAGE_FRENCH;;
 
 $playerConnector = new PlayerConnector();
 $playerConnector->save($player);

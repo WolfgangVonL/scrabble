@@ -1,3 +1,5 @@
+Added french language support to edlerd/scrabble project.
+
 scrabble
 ========
 

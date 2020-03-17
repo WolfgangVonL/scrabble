@@ -26,9 +26,11 @@ var LETTER_STASH;
 var POINTS_PER_LETTER;
 var LANGUAGE_CONFIG;
 const LANG_ENGLISH = 'english';
+const LANG_FRENCH = 'french';
 const LANG_GERMAN = 'german';
 const ENGLISH_CONFIG_URL = 'config/english.jsonp';
 const GERMAN_CONFIG_URL = 'config/german.jsonp';
+const FRENCH_CONFIG_URL = 'config/french.jsonp';
 loadLanguageConfig();
 
 function getUrlParameterByName(name, url) {
@@ -47,8 +49,10 @@ function getConfigUrl() {
   switch (lang) {
     case LANG_ENGLISH:
       return ENGLISH_CONFIG_URL;
-    case LANG_GERMAN:
+    case LANG_FRENCH:
     default:
+      return FRENCH_CONFIG_URL;
+    case LANG_GERMAN:
       return GERMAN_CONFIG_URL;
   }
 }

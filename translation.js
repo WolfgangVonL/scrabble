@@ -108,7 +108,7 @@ var TRANSLATION_MAP = {
   },
   "Felder für Buchstabenprämien":{
     "english":"Letter Award Fields",
-    "french":""
+    "french":"Lettres bonus"
   },
   "Wird ein Buchstabe auf ein hellblaues Feld gesetzt, so verdoppelt sich sein Wert. Wird ein Buchstabe auf ein dunkelblaues Feld gesetzt, so verdreifacht sich sein Wert.":{
     "english":"If a letter is placed on a light blue field, its value doubles. If a letter is placed on a dark blue field, its value triples.",
@@ -116,7 +116,7 @@ var TRANSLATION_MAP = {
   },
   "Felder für Wortprämien":{
     "english":"Word Premium Fields",
-    "french":""
+    "french":"Mots bonus"
   },
   "Wird ein Buchstabe auf ein hellrotes Feld gesetzt, so verdoppelt sich der Wert des gesamten Wortes. Wird ein Buchstabe auf ein dunkelrotes Feld gesetzt, so verdreifacht sich der Wert des gesamten Wortes.":{
     "english":"If a letter is placed on a light red field, the value of the entire word doubles. If a letter is placed on a dark red field, the value of the entire word is tripled.",
@@ -124,12 +124,12 @@ var TRANSLATION_MAP = {
   },
   "Austausch von Buchstabensteinen":{
     "english":"Replacement of letter stones",
-    "french":""
+    "french":"Remplacement des lettres"
   },
   "Ein Spieler hat die Möglichkeit einen oder all seine Buchstabensteine auszutauschen, wenn er an der Reihe ist. Er legt die Buchstabensteine mit dem Buchstaben nach unten zur Seite und zieht die gleiche Anzahl neuer Buchstabensteine aus dem Beutel. Die zur Seite gelegten Buchstabensteine werden dann in den Beutel gelegt und mit den anderen Steinen gemischt. Er muss diese Runde dann aussetzen.":{
     "german":"Du hast die Möglichkeit einen oder alle Buchstabensteine auszutauschen. Wähle die zu tauschenden Buchstaben aus, die gleiche Anzahl neuer Buchstabensteine bekommst du aus den übrigen Buchstaben. Die abgelegten Buchstabensteine werden dann zurück zum Vorrat gegeben. Du musst diese Runde dann aussetzen.",
     "english":"You have the possibility to replace one or all of your letter stones when it is your turn. Select the letter stones to be abandoned. The same number of new letter stones will be drawn form the stash. The abandoned letter stones are then placed in the stash. You must then suspend this round.",
-    "french":""
+    "french":"Vous avez la possibilité de remplacer une ou toutes vos pierres à lettres à votre tour. Sélectionnez les pierres à lettres à abandonner. Le même nombre de nouvelles pierres de lettre seront tirées de la cachette. Les pierres à lettres abandonnées sont ensuite placées dans la cachette. Vous devez ensuite suspendre ce tour."
   },
   "Du gewinnst.":{
     "english":"You win.",
